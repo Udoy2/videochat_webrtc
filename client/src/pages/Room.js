@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { useSocket } from '../components/Socket'
+import { useSocket } from '../providers/Socket'
 
 function Room() {
     const {socket} = useSocket();

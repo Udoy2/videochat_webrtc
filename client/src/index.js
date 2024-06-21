@@ -5,7 +5,7 @@ import App from './App';
 import {createBrowserRouter,RouterProvider} from 'react-router-dom';
 import errorPage from './errorPage';
 import Home from './pages/Home';
-import { SocketProvider } from './components/Socket';
+import { SocketProvider } from './providers/Socket';
 import Room from './pages/Room';
 
 const router = createBrowserRouter([

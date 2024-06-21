@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Home.css'
-import { useSocket } from '../components/Socket'
+import { useSocket } from '../providers/Socket'
 import { useNavigate } from 'react-router-dom';
 function Home() {
   const navigate = useNavigate();
